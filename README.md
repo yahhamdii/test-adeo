@@ -5,6 +5,14 @@ In the following file `data.js`, there are `Countries` containing `Peoples` cont
 Some features have been implemented by a previous developer. You need to check if all user stories have been completed.
 If you find some issues or enhancements, feel free to create a new pull request on the same repository.
 
+## Requirements
+
+- All your changes should be in a new branch. You have to open a new pull request to push your work in this repository.
+- No library/modules should be added.
+- **Code readability**, structure and consistency
+- **Tests**, and how they are written
+- Usage of comments
+
 ## User story #1 filter
 The customer would like to filter the above lists by animals name and print a formatted list in the console.
 
@@ -124,16 +132,3 @@ node app.js --filter=ry --count
   }
 ]
 ```
-
-## Requirements
-
-- The code must be available in a GIT repository
-- No library/modules should be added.
-
-## Appreciation
-
-We will be really attentive to:
-
-- **Code readability**, structure and consistency
-- **Tests**, and how they are written
-- Comments
