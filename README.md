@@ -3,7 +3,7 @@
 Details:
 In the following file `data.js`, there are `Countries` containing `Peoples` containing `Animals`.
 Some features have been implemented by a previous developer. You need to check if all user stories have been completed.
-If you find some issues or enhancements, feel free to create a new pull request on the same repository.
+If you find some issues or enhancements, feel free to fork this repository and create a new pull request on this repository.
 
 ## Requirements
 
@@ -14,6 +14,7 @@ If you find some issues or enhancements, feel free to create a new pull request 
 - Usage of comments
 
 ## User story #1 filter
+
 The customer would like to filter the above lists by animals name and print a formatted list in the console.
 
 Your task:
@@ -25,7 +26,8 @@ if a people no longer contains animal after the filter, the people should not ap
 if a country no longer contains people after the filter, the country should not appear in the result.
 The order of countries, peoples and animals should be kept intact.
 
-Example : 
+Example :
+
 ```shell script
 $ node app.js --filter=ry
 # Only animals containing `ry` are displayed.
@@ -90,7 +92,6 @@ The number of children should appear in square brackets a white space after the 
 Rules:
 If the count is the only command called, you have to count the initial data.
 
-
 ## User story #3 combine filter and count commands
 
 Task:
@@ -101,7 +102,7 @@ The count command should add the number of children after the filter was applied
 
 ```shell script
 node app.js --count --filter=ry
-node app.js --filter=ry --count 
+node app.js --filter=ry --count
 # This two commands should produce the same result
 [
   {
